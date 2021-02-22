@@ -56,6 +56,7 @@ public class Klient {
 				break;
 			case 4:
 				System.out.println("\nProgrammet er avsluttet.");
+				break;
 			default:
 				System.out.println("Noe gikk galt.");
 		}
