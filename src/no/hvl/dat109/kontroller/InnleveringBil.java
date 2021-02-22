@@ -63,6 +63,8 @@ public class InnleveringBil {
 		List<Retur> returListe = selskap.getReturnerteBiler();
 		returListe.add(retur);
 		
+		Klient.Meny();
+		
 		System.out.println("Bilen har blitt innlevert! ");
 		System.out.println();
 		Klient.Meny();

@@ -69,5 +69,7 @@ public class UtleieBil {
 		System.out.println();
 		System.out.println("Her er leiebilen din! :)");
 		Klient.Meny();
+		
+		Klient.Meny();
 	}
 }
