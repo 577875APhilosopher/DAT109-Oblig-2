@@ -56,7 +56,7 @@ public class InnleveringBil {
 		System.out.println("Regningen er nå sendt.");
 		Kredittkort kort = reservasjoner.getKunde().getKredittKort();
 		
-		//Fjerner kundens bil
+		//Fjerner kundens bil fra reservasjoner
 		alleReservasjoner.remove(reservasjoner);
 		
 		Retur retur = new Retur(kort, currDate, bil.getRegnr());
