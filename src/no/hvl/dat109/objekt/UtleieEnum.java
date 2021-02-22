@@ -1,4 +1,4 @@
-package oblig2.objekt;
+package no.hvl.dat109.objekt;
 
 public enum UtleieEnum {
 	
@@ -6,4 +6,5 @@ public enum UtleieEnum {
 	MELLOMSTOR_BIL,
 	STOR_BIL,
 	STASJONSVOGN;
+	
 }

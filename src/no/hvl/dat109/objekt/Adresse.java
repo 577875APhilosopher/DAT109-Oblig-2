@@ -1,13 +1,14 @@
-package oblig2.objekt;
+package no.hvl.dat109.objekt;
 
 /**
- * Klasse for å definere en bil.
+ * Klasse for å definere en adresse.
  * 
- * @author Matias, Philippe, Sebastian
+ * @author Philippe, Matias, Sebastian
  *
  */
 
 public class Adresse {
+	
 	private String gateadresse;
 	private int postnr;
 	private String poststed;
